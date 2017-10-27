@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="br.com.edecio.apprevendaherbieretrofit.PropostaActivity">
+
+    <ImageView
+        android:id="@+id/imgCarro"
+        android:layout_width="240dp"
+        android:layout_height="180dp" />
+
+    <TextView
+        android:id="@+id/txtCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txtPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/dados_da_proposta"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/edtCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_cliente"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_mail_para_retorno"/>
+
+    <EditText
+        android:id="@+id/edtProposta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/detalhes_da_proposta"/>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar_proposta"/>
+
+
+</LinearLayout>

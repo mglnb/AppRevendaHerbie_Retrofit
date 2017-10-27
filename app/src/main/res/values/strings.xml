@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App Revenda Herbie Retrofit</string>
+    <string name="dados_da_proposta">Dados da Proposta</string>
+    <string name="nome_do_cliente">Nome do Cliente</string>
+    <string name="e_mail_para_retorno">E-mail para Retorno</string>
+    <string name="detalhes_da_proposta">Detalhes da Proposta</string>
+    <string name="enviar_proposta">Enviar Proposta</string>
+</resources>
